@@ -80,7 +80,17 @@ h1 {
   font-size: 3rem;
 }
 
+.form-div-2 h4 {
+  color: #fff;
+}
+
+.form-div-2 .forgot {
+  color: #fff;
+}
+
 .form-container {
+  background-color: #000;
+  color: #fff;
   animation-name: footer;
   animation-duration: 0.4s;
   animation-fill-mode: both;
