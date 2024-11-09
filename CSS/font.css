@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "bold";
+    src: url("../Fonts/Raleway/static/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("../Fonts/Raleway/static/Raleway-Medium.ttf");
+}

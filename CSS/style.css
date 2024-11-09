@@ -1,0 +1,103 @@
+* {
+  font-family: medium;
+}
+
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.logo {
+  font-family: bold;
+  font-size: 1.5rem;
+}
+
+.shadow {
+  color: #fff;
+  text-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: bold;
+}
+
+.button {
+  background-color: #000;
+}
+
+.html-css-js-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.html-css-js {
+  width: 12.2rem;
+}
+
+.react-next-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-next {
+  width: 12.3rem;
+  padding: 0.5rem;
+}
+
+.github-netlify {
+  width: 10rem;
+}
+
+.github-netlify-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mongodb-postgresql {
+  width: 11.5rem;
+}
+
+.mongodb-postgresql-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div-2 h2 {
+  font-family: bold;
+  font-size: 3rem;
+}
+
+.form-container {
+  animation-name: footer;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+@keyframes footer {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+  }
+}
